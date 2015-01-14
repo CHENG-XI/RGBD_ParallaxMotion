@@ -1,0 +1,19 @@
+﻿Build started 12/10/2014 6:27:49 PM.
+     1>Project "J:\all\CSE557\parallax-motion\rgbd\rgbd\rgbd.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\fltk-1.3.2" /I"C:\Program Files\fltk-1.3.2\png" /I"C:\Program Files\fltk-1.3.2\zlib" /I"C:\Program Files\fltk-1.3.2\jpeg" /II:\opencv\build\\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _MBCS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt parallaxMotion.cpp
+         parallaxMotion.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"J:\all\CSE557\parallax-motion\rgbd\Debug\rgbd.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\fltk-1.3.2\lib" /LIBPATH:I:\opencv\build\\x86\vc12\lib fltkd.lib fltkgld.lib fltkzlibd.lib fltkpngd.lib fltkjpegd.lib Comctl32.lib wsock32.lib opengl32.lib glu32.lib odbc32.lib odbccp32.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_nonfree2410d.lib opencv_objdetect2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_videostab2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"J:\all\CSE557\parallax-motion\rgbd\Debug\rgbd.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\all\CSE557\parallax-motion\rgbd\Debug\rgbd.lib" /MACHINE:X86 Debug\adaptFocus.obj
+         Debug\depthFilter.obj
+         Debug\imageView.obj
+         Debug\parallaxMotion.obj
+         Debug\rgbd.obj
+         Debug\rgbdDoc.obj
+         Debug\rgbdUI.obj
+         rgbd.vcxproj -> J:\all\CSE557\parallax-motion\rgbd\Debug\rgbd.exe
+     1>Done Building Project "J:\all\CSE557\parallax-motion\rgbd\rgbd\rgbd.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.85
